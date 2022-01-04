@@ -12,7 +12,7 @@
 body {
     background: #f7f7f7;
     color: #333333;
-    font-family: warnock-pro-display, serif;
+    font-family: helvetica, serif;
 }
 
 section, header {
@@ -115,6 +115,14 @@ header p {
     line-height: .5;
     color: #87460D;}
 
+    .dropcap2 {
+        font-family: warnock-pro-display, serif;
+        float: left;
+        font-size: 6rem;
+        padding-right: .05em;
+        line-height: .5;
+        color: #FBF8F0;}
+
 p {font-family: mr-eaves-sans, sans-serif;}
 
 /*-- Styling links --*/
@@ -122,6 +130,13 @@ a {
     color: #87460D;
     text-decoration: none
 }
+
+a:hover {
+    color: rgb(115, 133, 0);
+    border-bottom: 1px dotted;
+}
+
+/*-- Styling nav --*/
 
 a:hover {
     color: rgb(115, 133, 0);
